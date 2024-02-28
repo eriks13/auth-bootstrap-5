@@ -20,7 +20,7 @@ Repositori ini berisi sistem otentikasi Laravel 10 yang dibuat secara kustom den
 
 - **Login**: Sistem login yang aman dengan validasi formulir dengan implementasi Ratelimiter 
 - **Registrasi**: Registrasi pengguna dengan validasi formulir dan tautan verifikasi email unik yang dikirim ke alamat email yang diberikan.
-- **Reset Password**: reset password melalui email.
+- **Reset Password**: reset password via mailtrap.
 
 ## Memulai
 
