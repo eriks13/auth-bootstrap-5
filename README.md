@@ -17,6 +17,7 @@ Repositori ini berisi sistem otentikasi Laravel 10 yang dibuat secara kustom den
 4. https://laravel.com/docs/10.x/passwords#introduction
 5. https://laravel.com/docs/10.x/validation#form-request-validation
 6. https://laravel.com/docs/10.x/validation#validation-error-response-format
+7. https://laravel.com/docs/10.x/verification#events
 
 ## Fitur
 
