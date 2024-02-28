@@ -1,4 +1,4 @@
-# Otentikasi Laravel dengan Bootstrap 5
+# Otentikasi Laravel 10 dengan Bootstrap 5
 
 ![Login Screenshot](login.png)
 ![Register Screenshot](register.png)
