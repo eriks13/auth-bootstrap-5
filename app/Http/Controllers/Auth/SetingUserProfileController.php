@@ -15,10 +15,17 @@ class SetingUserProfileController extends Controller
 {
     public function show(User $user): View
     {
+        abort_if(auth()->id() !== $user->id, 403,'tidakan ini ilegal');
+
         return view('auth.profile.seting-profile', compact('user'));
+        
     }
     public function update(Request $request, User $user): RedirectResponse
     {
+
+        abort_if(auth()->id() !== $user->id, 403,'tidakan ini ilegal');
+
+
         $validated = $request->validate([
             'name' => ['required', 'string', 'max:225'],
             'email' => ['required', 'email', 'unique:users,email,'.$user->id],
@@ -27,7 +34,7 @@ class SetingUserProfileController extends Controller
 
         $changesMade = false;
         
-        if ($validated['name'] != $user->name || $validated['email'] != $user->email) {
+        if ($validated['name'] !== $user->name || $validated['email'] !== $user->email) {
             $user->name = $validated['name'];
             $user->email = $validated['email'];
             $changesMade = true;
