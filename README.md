@@ -2,11 +2,8 @@
 
 ![Login Screenshot](login.png)
 ![Register Screenshot](register.png)
-![emailfery Screenshot](email-reset.png)
-
-![ResetPassword Screenshot](reset-password.png)
 ![profile Screenshot](profile.png)
-![Register Screenshot](datatable.png)
+![Datatable Screenshot](datatable.png)
 
 
 Repositori ini berisi sistem otentikasi Laravel 10 yang dibuat secara kustom dengan tampilan menggunakan Bootstrap 5. Ini mencakup fitur-fitur seperti login (implement remember me, ratelimiter/Login Throttling.login akan dibatasi satu menit jika gagal memberikan kredensial yang benar setelah beberapa kali mencoba. Pembatasan unik untuk nama pengguna/alamat email pengguna dan alamat IP ) registrasi, reset password via Mailtrap dan  update profile. Verifikasi email dikirim melalui Mailtrap untuk keperluan pengujian.
